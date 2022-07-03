@@ -65,7 +65,7 @@ def generate_timers():
 
 async def main():
     try:
-        accounts = open('1.txt').read().split('\n')
+        accounts = open('accounts.txt').read().split('\n')
         random.shuffle(accounts)
     except FileNotFoundError:
         print(

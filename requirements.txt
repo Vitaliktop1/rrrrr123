@@ -1,0 +1,7 @@
+random
+mimetypes
+colorama
+requests
+wget
+heroku3
+threading
